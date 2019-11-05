@@ -1,0 +1,90 @@
+// https://stackoverflow.com/questions/6502313/when-using-sass-how-can-i-import-a-file-from-a-different-directory
+@import 'foundation.min.css';
+@import 'utility';
+
+@font-face {
+  font-family: "moon";
+  src: url("./../fonts/Moon20-Regular.woff2");
+}
+
+.backdrop {
+  background-color: black;
+}
+
+#background {
+  background-color: #222;
+}
+
+.howl {
+  float: right;
+  width: 30rem;
+}
+
+p, h1, h2, h3, h4, h5, li{
+  font-family: moon;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-weigh: bold;
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size:15px;
+}
+
+span{
+  border-bottom: 2px dotted white;
+}
+
+.top-line {
+  display: inline;
+  margin-left: 15px;
+}
+
+.name {
+  float: right;
+  position: relative;
+  right: 12px;
+}
+
+.planet {
+  width:98%;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.weird {
+  margin-left: 15px;
+}
+
+.allignmenthelp {
+  text-align: right;
+}
+
+label {
+  font-family: moon;
+  color: #fff;
+  font-size: 25px;
+}
+
+.inline {
+  display: inline;
+}
+
+#centerme {
+  text-align: center;
+  margin-bottom: 20px;
+}
